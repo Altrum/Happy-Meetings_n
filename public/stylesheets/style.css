@@ -62,6 +62,7 @@ body {
     font-style: normal;
     font-variant: normal;
     padding-bottom: 0px;
+    display: none;
 
 }
 
@@ -222,7 +223,27 @@ body {
     100% { opacity:1; }
 }
 
-.test{
-  display: none;
-  
+
+/* Modal sign up */
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  margin: 50px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.modal-content {
+  color: blue;
+}
+.fb-login-button{
+  margin-bottom: 20px;
 }

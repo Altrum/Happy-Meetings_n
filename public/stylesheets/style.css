@@ -61,8 +61,8 @@ body {
     font-family: Raleway;
     font-style: normal;
     font-variant: normal;
-    padding-bottom: 0px;
-    display: none;
+    display: inline-block;
+    margin-top: 20px;
 
 }
 

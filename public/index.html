@@ -32,7 +32,7 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
 
-    <!--JQUERY AND TYPED JS --> 
+    <!-- TYPED JS import and script --> 
     <script src="../../typed.js/js/typed.js"></script>
     <script>
       $(document).ready(function(){
@@ -40,6 +40,7 @@
         $(".lead").typed({
           strings: ["We make meetings ^250 more <i><b>efficient</b></i> ^1000 for your ^300 company or organization"],
           typeSpeed: 25,
+          showCursor: true,          
         });
       });
     </script>
@@ -103,7 +104,7 @@
 
             <div class="inner cover">
               <h1 class="cover-heading">Welcome.</h1>
-              <p class="lead">We make meetings more <b><i>efficient</i></b> for your company or organization.</p>
+              <span class="lead"></span>
               <p class="inner_buttons">
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Let's get started</button>
                 <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
